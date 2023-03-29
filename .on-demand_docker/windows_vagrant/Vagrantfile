@@ -1,0 +1,24 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+	config.vm.box = "bento/centos-7.4"
+
+  config.vm.network "private_network", ip: "192.168.33.10"
+
+  config.vm.synced_folder "../../codelike_web_docker", "/codelike_web_docker"
+
+  config.vm.provider "virtualbox" do |vb|
+     vb.memory = "2024"
+   end
+
+  config.vm.provision "shell", inline: <<-SHELL
+     yum update
+     yum install -y yum-utils device-mapper-persistent-data lvm2
+     yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+     yum makecache fast
+     yum install -y docker-ce
+     curl -L https://github.com/docker/compose/releases/download/1.14.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
+     chmod +x /usr/local/bin/docker-compose
+  SHELL
+end

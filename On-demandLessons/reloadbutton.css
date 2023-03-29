@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+#reloadbutton{
+    font-size: 50px;
+    text-decoration: none;
+}
+#reloadbutton:hover{
+    color: green;
+}

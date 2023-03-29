@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+#form{
+    width: 500px;
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 200px;
+    border: solid 1px black;
+}
+#gradeselect, #gakubuselect, #inputtitle, #submitbutton, .inputfile, .subtitle, .radiotext, #kadaitext, #inputdatetime{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.error{
+    font-size: 20px;
+    color: red;
+}
+
+.radiotext:hover{
+    color: green;
+}
+.radiobutton{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 30px;
+}
+
+#kadaitext{
+    width: 80%;
+    height: 100px;
+}
+#kadaitextbox{
+    display: none;
+}

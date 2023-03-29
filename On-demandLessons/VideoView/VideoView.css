@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.loadview{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+.loadingimg{
+    position: fixed;
+    top: 50%;
+    left: 49%;
+}
+.loadtitle{
+    font-size: 50px;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+}
+#mainvideo{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    pointer-events: none;
+}
+#fullscreenbutton{
+    font-size: 30px;
+    opacity: .5;
+    transition: .5s ease;
+}
+#fullscreenbutton:hover{
+    opacity: 1;
+}
+.nowtime{
+    background-color: gray;
+    font-size: 20px;
+    z-index: 100;
+    opacity: .8;
+}
+
+#AIvideo{
+    display: none;
+}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.box{
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    font-size: 23px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.subbox{
+    border: solid 2px black;
+    width: 350px;
+    height: 100%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.samuneimg{
+    width: 100%;
+    height: 350px;
+}
+#gradeselect, #gakubuselect, #selectboxtitle{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.unanswer, .redview{
+    color: red;
+}

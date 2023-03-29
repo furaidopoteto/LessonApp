@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+#gradeselect, #gakubuselect, #selectboxtitle, #inputstudentnumber, #searchbutton{
+    font-size: 30px;
+}
+.box{
+    border: solid 2px black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 80%;
+    height: 100%;
+    font-size: 25px;
+}
+.subbox{
+    border-top: solid 1px black;
+    width: 100%;
+    display: flex;
+}
+.column{
+    border-left: solid 1px black;
+    width: 16%;
+    display: inline-block;
+}

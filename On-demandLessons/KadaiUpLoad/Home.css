@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+.box{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border: solid 1px;
+}
+.boxitem{
+    margin-top: 10px;
+    font-size: 35px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: solid 1px;
+}
+#form{
+    text-align: center;
+}
+#inputfile{
+    font-size: 30px;
+    display: none;
+}
+#inputfilelabel {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 40px;
+    color: #ffffff;
+    background-color: #384878;
+    cursor: pointer;
+}
+#filetitle {
+    margin: 10px 0 0 0;
+    display: inline-block;
+}
+#submitbutton, #resubmitbutton{
+    margin-top: 40px;
+    font-size: 30px;
+}
+#resubmitbutton{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.fileerror{
+    display: none;
+    color: red;
+}
+
+.error{
+    font-size: 35px;
+    color: red;
+}

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+#returnbutton{
+    text-decoration: none;
+    color: blue;
+    display: inline-block;
+    font-size: 60px;
+    transition: .5s ease;
+}
+#returnbutton:hover{
+    color: green;
+}
+.box{
+    margin-top: 100px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.questionbox, .answerbox{
+    border: solid 1px black;
+    font-size: 25px;
+}
+.answerbox{
+    margin-bottom: 30px;
+}
+.time, .deletebutton{
+    font-size: 20px;
+    text-align: right;
+    display: block;
+}
+#questionform{
+    position: fixed;
+    bottom: 20px;
+}
+#questionsubmit{
+    font-size: 40px;
+}
+#typequestion{
+    font-size: 30px;
+    height: 250px;
+}
+#questionsubmit{
+    width: 100px;
+}
+
+.notanswer{
+    color: red;
+}

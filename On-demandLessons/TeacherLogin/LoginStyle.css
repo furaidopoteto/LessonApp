@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+body{
+    background-image: url("../BackGroundImage/bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    background-color: white;
+    text-align: center;
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    margin-top: 150px;
+}
+.title{
+    font-size: 30px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.inputform, .submitbutton{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.submitbutton{
+    border-radius: 20px;
+    font-size: 50px;
+    padding: 10px 15px;
+    background: transparent;
+    margin-top: 20px;
+    border: solid 3px;
+    transition: .5s ease;
+}
+.onsubmit{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.onsubmit:hover{
+    opacity: .5;
+}
+.inputform{
+    background-color: rgba(128, 128, 128, 0.205);
+    border-color: rgba(128, 128, 128, 0.205);;
+}
+.footerbutton{
+    font-size: 20px;
+    text-decoration: none;
+    opacity: .5;
+    color: black;
+    transition: .5s ease;
+}
+.footerbutton:hover{
+    opacity: 1;
+}
+.gradetitle, .gradeselect{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.error{
+    color: red;
+    font-size: 20px;
+}
+
+.checkbox{
+    height: 20px;
+    width: 20px;
+}
+.label{
+    font-size: 20px;
+}
+.label:hover{
+    color: green;
+}

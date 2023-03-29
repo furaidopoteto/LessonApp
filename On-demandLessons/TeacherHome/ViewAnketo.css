@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 47%;
+    height: 100%;
+    font-size: 25px;
+}
+.subbox{
+    border: solid 2px black;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.avgbox{
+    position: fixed;
+    width: 25%;
+    font-size: 22px;
+    left: 0;
+}
+.columnbox{
+    border-top: solid 1px black;
+    width: 100%;
+    display: flex;
+}
+.column{
+    border-left: solid 1px black;
+    width: 45%;
+    display: inline-block;
+}
+.star{
+    color: green;
+}
+.starbox{
+    display: inline-block;
+}
+#orderselect{
+    font-size: 30px;
+}

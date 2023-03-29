@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+.header{
+    background-color: rgb(207, 207, 207);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 40px;
+    height: 80px;
+    z-index: 10000;
+}
+.warpper{
+    position: fixed;
+    top: 0;
+    right: 0px;
+    width: 70px;
+    height: 100%;
+    transition: .5s ease;
+}
+.hanbagubutton{
+    height: 80px;
+}
+.top, .center, .bottom{
+    right: 10px;
+    position: fixed;
+    background-color: black;
+    height: 8px;
+    width: 60px;
+    display: inline-block;
+    transition: .5s ease;
+}
+.nav{
+    position: fixed;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: -450px;
+    height: 100%;
+    width: 450px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    transition: .5s ease;
+}
+.navopen{
+    transform: translate3d(-450px, 0, 0);
+}
+.navlist{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 35px;
+    list-style: none;
+}
+.navlist:hover{
+    color: aqua;
+}
+.top{
+    top: 10px;
+}
+.center{
+    top: 30px;
+}
+.bottom{
+    top: 50px;
+}
+.opentop{
+    transform: rotate(-45deg);
+    top: 30px;
+}
+.openbottom{
+    transform: rotate(45deg);
+    top: 30px;
+}
+.opencenter{
+    transform: translate3d(500px, 0, 0);
+}
+
+#returnbutton{
+    text-decoration: none;
+    color: blue;
+    display: inline-block;
+    font-size: 60px;
+    transition: .5s ease;
+}
+#returnbutton:hover{
+    color: green;
+}

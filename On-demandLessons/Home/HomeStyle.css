@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.box{
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.subbox{
+    border: solid 2px black;
+    width: 350px;
+    height: 100%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.samuneimg{
+    width: 100%;
+    height: 350px;
+}
+.checktitle{
+    text-align: right;
+    display: inline-block;
+}
+.ok{
+    color: green;
+}
+.ng{
+    color: red;
+}
+.aok{
+    color: green;
+    pointer-events: none;
+}
+.itag{
+    font-size: 50px;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    text-align: center;
+}
+.imghover{
+    color: red;
+}
+.jukodata{
+    margin-left: 20px;
+}
+.anketo{
+    color: red;
+}
