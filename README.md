@@ -24,7 +24,7 @@ $ git clone https://github.com/furaidopoteto/LessonApp.git
 $ cd LessonApp
 $ docker-compose -f .on-demand_docker/docker-compose.yml up -d
 ```
-3. コンテナが立ち上がったら「[http://127.0.0.1:8080](http://127.0.0.1:8080)」にアクセスすることで使用できます。
+3. コンテナが立ち上がったら「[http://127.0.0.1:8080](http://127.0.0.1:8080)」にアクセスすることで使用できます。※phpMyAdminの起動に時間がかかる場合がございます。
 
 # 使用しているライブラリ
 
